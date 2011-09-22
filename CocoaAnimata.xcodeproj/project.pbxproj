@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09387361105478830065851C /* LayersController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09387360105478830065851C /* LayersController.m */; };
+		093873DB10547F8E0065851C /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093873DA10547F8E0065851C /* Quartz.framework */; };
+		095E45F81052DFAC005713E1 /* Layer.m in Sources */ = {isa = PBXBuildFile; fileRef = 095E45F71052DFAC005713E1 /* Layer.m */; };
+		095E45FB1052DFE9005713E1 /* Vector3D.m in Sources */ = {isa = PBXBuildFile; fileRef = 095E45FA1052DFE9005713E1 /* Vector3D.m */; };
+		09CFBC48105B992600EA14BB /* cursor_Pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = 09CFBC47105B992600EA14BB /* cursor_Pencil.png */; };
+		09CFBC5D105B99E600EA14BB /* LayerEditorGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CFBC5C105B99E600EA14BB /* LayerEditorGLView.m */; };
+		09CFBC81105B9C9B00EA14BB /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CFBC80105B9C9B00EA14BB /* OpenGL.framework */; };
+		09CFBC9B105B9EAF00EA14BB /* MainToolbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CFBC9A105B9EAF00EA14BB /* MainToolbarController.m */; };
+		09CFBCA8105BA01800EA14BB /* Arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 09CFBCA7105BA01800EA14BB /* Arrow.png */; };
+		09CFBE06105BAFC000EA14BB /* ToolController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CFBE05105BAFC000EA14BB /* ToolController.m */; };
+		09CFBE32105BB10400EA14BB /* SelectionTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CFBE31105BB10400EA14BB /* SelectionTool.m */; };
+		09CFBE35105BB11A00EA14BB /* DrawTrianglesTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CFBE34105BB11A00EA14BB /* DrawTrianglesTool.m */; };
+		09CFBE93105BB63700EA14BB /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CFBE92105BB63700EA14BB /* Tool.m */; };
+		09CFBFDE105BC96F00EA14BB /* cursor_Hand.png in Resources */ = {isa = PBXBuildFile; fileRef = 09CFBFDD105BC96F00EA14BB /* cursor_Hand.png */; };
+		09CFBFED105BC9C200EA14BB /* PanTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CFBFEC105BC9C200EA14BB /* PanTool.m */; };
+		09CFC19F105BE01600EA14BB /* Camera.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CFC19E105BE01600EA14BB /* Camera.m */; };
+		09CFC8DA105D095C00EA14BB /* Texture.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CFC8D9105D095C00EA14BB /* Texture.m */; };
+		09CFC8DD105D095F00EA14BB /* Mesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CFC8DC105D095F00EA14BB /* Mesh.m */; };
+		09CFC8E0105D096300EA14BB /* Skeleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CFC8DF105D096300EA14BB /* Skeleton.m */; };
+		09CFC92B105D0C0F00EA14BB /* Bone.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CFC92A105D0C0F00EA14BB /* Bone.m */; };
+		09CFC92E105D0C1300EA14BB /* Joint.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CFC92D105D0C1300EA14BB /* Joint.m */; };
+		09CFC931105D0C2100EA14BB /* AttachedVertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CFC930105D0C2100EA14BB /* AttachedVertex.m */; };
+		09CFC934105D0C3100EA14BB /* Face.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CFC933105D0C3100EA14BB /* Face.m */; };
+		09CFC93A105D0D1700EA14BB /* XMLModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CFC939105D0D1700EA14BB /* XMLModel.m */; };
+		09CFC93D105D0E1B00EA14BB /* Vertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CFC93C105D0E1B00EA14BB /* Vertex.m */; };
+		09CFCE89105D5A4E00EA14BB /* ImageNotFoundException.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CFCE88105D5A4E00EA14BB /* ImageNotFoundException.m */; };
+		09CFD0F2105D729500EA14BB /* animata.icns in Resources */ = {isa = PBXBuildFile; fileRef = 09CFD0F1105D729500EA14BB /* animata.icns */; };
+		09F7A11B105E4F4100C81F68 /* LayerEditor.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09F7A11A105E4F4100C81F68 /* LayerEditor.xib */; };
+		09F7A120105E836F00C81F68 /* LayerEditorWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F7A11F105E836F00C81F68 /* LayerEditorWindowController.m */; };
+		09F7A207105ED1BF00C81F68 /* AnimataGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F7A206105ED1BF00C81F68 /* AnimataGLView.m */; };
+		09F7A20A105ED20300C81F68 /* SceneGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F7A209105ED20300C81F68 /* SceneGLView.m */; };
+		1DDD582C0DA1D0D100B32029 /* DocumentWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58280DA1D0D100B32029 /* DocumentWindow.xib */; };
+		1DDD582D0DA1D0D100B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD582A0DA1D0D100B32029 /* MainMenu.xib */; };
+		8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */; };
+		8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
+		8D15AC310486D014006FF6A4 /* CocoaAnimataDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4ACFDCFA73011CA2CEA /* CocoaAnimataDocument.m */; settings = {ATTRIBUTES = (); }; };
+		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C1660FE840EACC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0938735F105478830065851C /* LayersController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayersController.h; sourceTree = "<group>"; };
+		09387360105478830065851C /* LayersController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayersController.m; sourceTree = "<group>"; };
+		093873DA10547F8E0065851C /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = /System/Library/Frameworks/Quartz.framework; sourceTree = "<absolute>"; };
+		095E45F61052DFAC005713E1 /* Layer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Layer.h; sourceTree = "<group>"; };
+		095E45F71052DFAC005713E1 /* Layer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Layer.m; sourceTree = "<group>"; };
+		095E45F91052DFE9005713E1 /* Vector3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector3D.h; sourceTree = "<group>"; };
+		095E45FA1052DFE9005713E1 /* Vector3D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vector3D.m; sourceTree = "<group>"; };
+		09CFBC47105B992600EA14BB /* cursor_Pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cursor_Pencil.png; sourceTree = "<group>"; };
+		09CFBC5B105B99E600EA14BB /* LayerEditorGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerEditorGLView.h; sourceTree = "<group>"; };
+		09CFBC5C105B99E600EA14BB /* LayerEditorGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerEditorGLView.m; sourceTree = "<group>"; };
+		09CFBC80105B9C9B00EA14BB /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		09CFBC99105B9EAF00EA14BB /* MainToolbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainToolbarController.h; sourceTree = "<group>"; };
+		09CFBC9A105B9EAF00EA14BB /* MainToolbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainToolbarController.m; sourceTree = "<group>"; };
+		09CFBCA7105BA01800EA14BB /* Arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arrow.png; sourceTree = "<group>"; };
+		09CFBE04105BAFC000EA14BB /* ToolController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolController.h; sourceTree = "<group>"; };
+		09CFBE05105BAFC000EA14BB /* ToolController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolController.m; sourceTree = "<group>"; };
+		09CFBE30105BB10400EA14BB /* SelectionTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionTool.h; sourceTree = "<group>"; };
+		09CFBE31105BB10400EA14BB /* SelectionTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectionTool.m; sourceTree = "<group>"; };
+		09CFBE33105BB11A00EA14BB /* DrawTrianglesTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawTrianglesTool.h; sourceTree = "<group>"; };
+		09CFBE34105BB11A00EA14BB /* DrawTrianglesTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawTrianglesTool.m; sourceTree = "<group>"; };
+		09CFBE91105BB63700EA14BB /* Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tool.h; sourceTree = "<group>"; };
+		09CFBE92105BB63700EA14BB /* Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tool.m; sourceTree = "<group>"; };
+		09CFBFDD105BC96F00EA14BB /* cursor_Hand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cursor_Hand.png; sourceTree = "<group>"; };
+		09CFBFEB105BC9C200EA14BB /* PanTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanTool.h; sourceTree = "<group>"; };
+		09CFBFEC105BC9C200EA14BB /* PanTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanTool.m; sourceTree = "<group>"; };
+		09CFC19D105BE01600EA14BB /* Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
+		09CFC19E105BE01600EA14BB /* Camera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Camera.m; sourceTree = "<group>"; };
+		09CFC8D8105D095C00EA14BB /* Texture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Texture.h; sourceTree = "<group>"; };
+		09CFC8D9105D095C00EA14BB /* Texture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Texture.m; sourceTree = "<group>"; };
+		09CFC8DB105D095F00EA14BB /* Mesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mesh.h; sourceTree = "<group>"; };
+		09CFC8DC105D095F00EA14BB /* Mesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mesh.m; sourceTree = "<group>"; };
+		09CFC8DE105D096300EA14BB /* Skeleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Skeleton.h; sourceTree = "<group>"; };
+		09CFC8DF105D096300EA14BB /* Skeleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Skeleton.m; sourceTree = "<group>"; };
+		09CFC929105D0C0F00EA14BB /* Bone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bone.h; sourceTree = "<group>"; };
+		09CFC92A105D0C0F00EA14BB /* Bone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bone.m; sourceTree = "<group>"; };
+		09CFC92C105D0C1300EA14BB /* Joint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Joint.h; sourceTree = "<group>"; };
+		09CFC92D105D0C1300EA14BB /* Joint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Joint.m; sourceTree = "<group>"; };
+		09CFC92F105D0C2100EA14BB /* AttachedVertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttachedVertex.h; sourceTree = "<group>"; };
+		09CFC930105D0C2100EA14BB /* AttachedVertex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttachedVertex.m; sourceTree = "<group>"; };
+		09CFC932105D0C3100EA14BB /* Face.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Face.h; sourceTree = "<group>"; };
+		09CFC933105D0C3100EA14BB /* Face.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Face.m; sourceTree = "<group>"; };
+		09CFC938105D0D1700EA14BB /* XMLModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLModel.h; sourceTree = "<group>"; };
+		09CFC939105D0D1700EA14BB /* XMLModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLModel.m; sourceTree = "<group>"; };
+		09CFC93B105D0E1B00EA14BB /* Vertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vertex.h; sourceTree = "<group>"; };
+		09CFC93C105D0E1B00EA14BB /* Vertex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vertex.m; sourceTree = "<group>"; };
+		09CFCE87105D5A4E00EA14BB /* ImageNotFoundException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageNotFoundException.h; sourceTree = "<group>"; };
+		09CFCE88105D5A4E00EA14BB /* ImageNotFoundException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageNotFoundException.m; sourceTree = "<group>"; };
+		09CFD0F1105D729500EA14BB /* animata.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = animata.icns; sourceTree = "<group>"; };
+		09F7A11A105E4F4100C81F68 /* LayerEditor.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LayerEditor.xib; sourceTree = "<group>"; };
+		09F7A11E105E836F00C81F68 /* LayerEditorWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerEditorWindowController.h; sourceTree = "<group>"; };
+		09F7A11F105E836F00C81F68 /* LayerEditorWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerEditorWindowController.m; sourceTree = "<group>"; };
+		09F7A205105ED1BF00C81F68 /* AnimataGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimataGLView.h; sourceTree = "<group>"; };
+		09F7A206105ED1BF00C81F68 /* AnimataGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimataGLView.m; sourceTree = "<group>"; };
+		09F7A208105ED20300C81F68 /* SceneGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneGLView.h; sourceTree = "<group>"; };
+		09F7A209105ED20300C81F68 /* SceneGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneGLView.m; sourceTree = "<group>"; };
+		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FBA07B3F13500E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58290DA1D0D100B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/DocumentWindow.xib; sourceTree = "<group>"; };
+		1DDD582B0DA1D0D100B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2A37F4ACFDCFA73011CA2CEA /* CocoaAnimataDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoaAnimataDocument.m; sourceTree = "<group>"; };
+		2A37F4AEFDCFA73011CA2CEA /* CocoaAnimataDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaAnimataDocument.h; sourceTree = "<group>"; };
+		2A37F4B0FDCFA73011CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A37F4BAFDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32DBCF750370BD2300C91783 /* CocoaAnimata_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaAnimata_Prefix.pch; sourceTree = "<group>"; };
+		8D15AC360486D014006FF6A4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D15AC370486D014006FF6A4 /* CocoaAnimata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaAnimata.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D15AC330486D014006FF6A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */,
+				093873DB10547F8E0065851C /* Quartz.framework in Frameworks */,
+				09CFBC81105B9C9B00EA14BB /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		095E45F51052DF9B005713E1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				09CFC935105D0C6E00EA14BB /* Animata */,
+				09CFC19D105BE01600EA14BB /* Camera.h */,
+				09CFC19E105BE01600EA14BB /* Camera.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		09CFBC42105B972B00EA14BB /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				09CFBE91105BB63700EA14BB /* Tool.h */,
+				09CFBE92105BB63700EA14BB /* Tool.m */,
+				09CFBE30105BB10400EA14BB /* SelectionTool.h */,
+				09CFBE31105BB10400EA14BB /* SelectionTool.m */,
+				09CFBE33105BB11A00EA14BB /* DrawTrianglesTool.h */,
+				09CFBE34105BB11A00EA14BB /* DrawTrianglesTool.m */,
+				09CFBFEB105BC9C200EA14BB /* PanTool.h */,
+				09CFBFEC105BC9C200EA14BB /* PanTool.m */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		09CFBC49105B992A00EA14BB /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				09CFBFDD105BC96F00EA14BB /* cursor_Hand.png */,
+				09CFBCA7105BA01800EA14BB /* Arrow.png */,
+				09CFBC47105B992600EA14BB /* cursor_Pencil.png */,
+			);
+			name = icons;
+			sourceTree = "<group>";
+		};
+		09CFBC5A105B99CB00EA14BB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				09F7A205105ED1BF00C81F68 /* AnimataGLView.h */,
+				09F7A206105ED1BF00C81F68 /* AnimataGLView.m */,
+				09F7A208105ED20300C81F68 /* SceneGLView.h */,
+				09F7A209105ED20300C81F68 /* SceneGLView.m */,
+				09CFBC5B105B99E600EA14BB /* LayerEditorGLView.h */,
+				09CFBC5C105B99E600EA14BB /* LayerEditorGLView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		09CFBD3D105BA6E100EA14BB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				09CFBE04105BAFC000EA14BB /* ToolController.h */,
+				09CFBE05105BAFC000EA14BB /* ToolController.m */,
+				0938735F105478830065851C /* LayersController.h */,
+				09387360105478830065851C /* LayersController.m */,
+				09CFBC99105B9EAF00EA14BB /* MainToolbarController.h */,
+				09CFBC9A105B9EAF00EA14BB /* MainToolbarController.m */,
+				09F7A11E105E836F00C81F68 /* LayerEditorWindowController.h */,
+				09F7A11F105E836F00C81F68 /* LayerEditorWindowController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		09CFC935105D0C6E00EA14BB /* Animata */ = {
+			isa = PBXGroup;
+			children = (
+				09CFCE86105D5A4100EA14BB /* Exceptions */,
+				095E45F91052DFE9005713E1 /* Vector3D.h */,
+				095E45FA1052DFE9005713E1 /* Vector3D.m */,
+				09CFC938105D0D1700EA14BB /* XMLModel.h */,
+				09CFC939105D0D1700EA14BB /* XMLModel.m */,
+				095E45F61052DFAC005713E1 /* Layer.h */,
+				095E45F71052DFAC005713E1 /* Layer.m */,
+				09CFC937105D0CA500EA14BB /* Texture */,
+				09CFC936105D0C9000EA14BB /* Skeleton */,
+			);
+			name = Animata;
+			sourceTree = "<group>";
+		};
+		09CFC936105D0C9000EA14BB /* Skeleton */ = {
+			isa = PBXGroup;
+			children = (
+				09CFC8DE105D096300EA14BB /* Skeleton.h */,
+				09CFC8DF105D096300EA14BB /* Skeleton.m */,
+				09CFC92C105D0C1300EA14BB /* Joint.h */,
+				09CFC92D105D0C1300EA14BB /* Joint.m */,
+				09CFC929105D0C0F00EA14BB /* Bone.h */,
+				09CFC92A105D0C0F00EA14BB /* Bone.m */,
+			);
+			name = Skeleton;
+			sourceTree = "<group>";
+		};
+		09CFC937105D0CA500EA14BB /* Texture */ = {
+			isa = PBXGroup;
+			children = (
+				09CFC8D8105D095C00EA14BB /* Texture.h */,
+				09CFC8D9105D095C00EA14BB /* Texture.m */,
+				09CFC8DB105D095F00EA14BB /* Mesh.h */,
+				09CFC8DC105D095F00EA14BB /* Mesh.m */,
+				09CFC93B105D0E1B00EA14BB /* Vertex.h */,
+				09CFC93C105D0E1B00EA14BB /* Vertex.m */,
+				09CFC932105D0C3100EA14BB /* Face.h */,
+				09CFC933105D0C3100EA14BB /* Face.m */,
+				09CFC92F105D0C2100EA14BB /* AttachedVertex.h */,
+				09CFC930105D0C2100EA14BB /* AttachedVertex.m */,
+			);
+			name = Texture;
+			sourceTree = "<group>";
+		};
+		09CFCE86105D5A4100EA14BB /* Exceptions */ = {
+			isa = PBXGroup;
+			children = (
+				09CFCE87105D5A4E00EA14BB /* ImageNotFoundException.h */,
+				09CFCE88105D5A4E00EA14BB /* ImageNotFoundException.m */,
+			);
+			name = Exceptions;
+			sourceTree = "<group>";
+		};
+		1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A8FEA54F5311CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */,
+				13E42FBA07B3F13500E4EEF1 /* CoreData.framework */,
+				2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB0FE9D524F11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D15AC370486D014006FF6A4 /* CocoaAnimata.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A37F4AAFDCFA73011CA2CEA /* CocoaAnimata */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4ABFDCFA73011CA2CEA /* Classes */,
+				2A37F4AFFDCFA73011CA2CEA /* Other Sources */,
+				2A37F4B8FDCFA73011CA2CEA /* Resources */,
+				2A37F4C3FDCFA73011CA2CEA /* Frameworks */,
+				19C28FB0FE9D524F11CA2CBB /* Products */,
+			);
+			name = CocoaAnimata;
+			sourceTree = "<group>";
+		};
+		2A37F4ABFDCFA73011CA2CEA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				095E45F51052DF9B005713E1 /* Models */,
+				09CFBC42105B972B00EA14BB /* Tools */,
+				09CFBD3D105BA6E100EA14BB /* Controllers */,
+				09CFBC5A105B99CB00EA14BB /* Views */,
+				2A37F4AEFDCFA73011CA2CEA /* CocoaAnimataDocument.h */,
+				2A37F4ACFDCFA73011CA2CEA /* CocoaAnimataDocument.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		2A37F4AFFDCFA73011CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF750370BD2300C91783 /* CocoaAnimata_Prefix.pch */,
+				2A37F4B0FDCFA73011CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		2A37F4B8FDCFA73011CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				09CFD0F1105D729500EA14BB /* animata.icns */,
+				09CFBC49105B992A00EA14BB /* icons */,
+				2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */,
+				8D15AC360486D014006FF6A4 /* Info.plist */,
+				089C165FFE840EACC02AAC07 /* InfoPlist.strings */,
+				1DDD58280DA1D0D100B32029 /* DocumentWindow.xib */,
+				1DDD582A0DA1D0D100B32029 /* MainMenu.xib */,
+				09F7A11A105E4F4100C81F68 /* LayerEditor.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2A37F4C3FDCFA73011CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09CFBC80105B9C9B00EA14BB /* OpenGL.framework */,
+				093873DA10547F8E0065851C /* Quartz.framework */,
+				1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */,
+				1058C7A8FEA54F5311CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D15AC270486D014006FF6A4 /* CocoaAnimata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "CocoaAnimata" */;
+			buildPhases = (
+				8D15AC2B0486D014006FF6A4 /* Resources */,
+				8D15AC300486D014006FF6A4 /* Sources */,
+				8D15AC330486D014006FF6A4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaAnimata;
+			productInstallPath = "$(HOME)/Applications";
+			productName = CocoaAnimata;
+			productReference = 8D15AC370486D014006FF6A4 /* CocoaAnimata.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "CocoaAnimata" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* CocoaAnimata */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D15AC270486D014006FF6A4 /* CocoaAnimata */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D15AC2B0486D014006FF6A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */,
+				8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */,
+				1DDD582C0DA1D0D100B32029 /* DocumentWindow.xib in Resources */,
+				1DDD582D0DA1D0D100B32029 /* MainMenu.xib in Resources */,
+				09CFBC48105B992600EA14BB /* cursor_Pencil.png in Resources */,
+				09CFBCA8105BA01800EA14BB /* Arrow.png in Resources */,
+				09CFBFDE105BC96F00EA14BB /* cursor_Hand.png in Resources */,
+				09CFD0F2105D729500EA14BB /* animata.icns in Resources */,
+				09F7A11B105E4F4100C81F68 /* LayerEditor.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D15AC300486D014006FF6A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC310486D014006FF6A4 /* CocoaAnimataDocument.m in Sources */,
+				8D15AC320486D014006FF6A4 /* main.m in Sources */,
+				095E45F81052DFAC005713E1 /* Layer.m in Sources */,
+				095E45FB1052DFE9005713E1 /* Vector3D.m in Sources */,
+				09387361105478830065851C /* LayersController.m in Sources */,
+				09CFBC5D105B99E600EA14BB /* LayerEditorGLView.m in Sources */,
+				09CFBC9B105B9EAF00EA14BB /* MainToolbarController.m in Sources */,
+				09CFBE06105BAFC000EA14BB /* ToolController.m in Sources */,
+				09CFBE32105BB10400EA14BB /* SelectionTool.m in Sources */,
+				09CFBE35105BB11A00EA14BB /* DrawTrianglesTool.m in Sources */,
+				09CFBE93105BB63700EA14BB /* Tool.m in Sources */,
+				09CFBFED105BC9C200EA14BB /* PanTool.m in Sources */,
+				09CFC19F105BE01600EA14BB /* Camera.m in Sources */,
+				09CFC8DA105D095C00EA14BB /* Texture.m in Sources */,
+				09CFC8DD105D095F00EA14BB /* Mesh.m in Sources */,
+				09CFC8E0105D096300EA14BB /* Skeleton.m in Sources */,
+				09CFC92B105D0C0F00EA14BB /* Bone.m in Sources */,
+				09CFC92E105D0C1300EA14BB /* Joint.m in Sources */,
+				09CFC931105D0C2100EA14BB /* AttachedVertex.m in Sources */,
+				09CFC934105D0C3100EA14BB /* Face.m in Sources */,
+				09CFC93A105D0D1700EA14BB /* XMLModel.m in Sources */,
+				09CFC93D105D0E1B00EA14BB /* Vertex.m in Sources */,
+				09CFCE89105D5A4E00EA14BB /* ImageNotFoundException.m in Sources */,
+				09F7A120105E836F00C81F68 /* LayerEditorWindowController.m in Sources */,
+				09F7A207105ED1BF00C81F68 /* AnimataGLView.m in Sources */,
+				09F7A20A105ED20300C81F68 /* SceneGLView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165FFE840EACC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1660FE840EACC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58280DA1D0D100B32029 /* DocumentWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58290DA1D0D100B32029 /* English */,
+			);
+			name = DocumentWindow.xib;
+			sourceTree = "<group>";
+		};
+		1DDD582A0DA1D0D100B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD582B0DA1D0D100B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A37F4BAFDCFA73011CA2CEA /* English */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C05733C808A9546B00998B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CocoaAnimata_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = CocoaAnimata;
+				SDKROOT = "";
+			};
+			name = Debug;
+		};
+		C05733C908A9546B00998B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CocoaAnimata_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = CocoaAnimata;
+				SDKROOT = "";
+			};
+			name = Release;
+		};
+		C05733CC08A9546B00998B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		C05733CD08A9546B00998B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "CocoaAnimata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05733C808A9546B00998B17 /* Debug */,
+				C05733C908A9546B00998B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "CocoaAnimata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05733CC08A9546B00998B17 /* Debug */,
+				C05733CD08A9546B00998B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+}
